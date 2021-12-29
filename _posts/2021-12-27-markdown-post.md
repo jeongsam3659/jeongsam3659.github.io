@@ -2,7 +2,7 @@
 title: "[Blog]마크다운MarkDown 언어"
 excerpt: "md파일에 언어를 사용해서 블로그를 이어가자"
 data: 2021-12-27
-last_modified_at: 2021-12-27
+last_modified_at: 2021-12-29
 ---
 
 <!-- Heading -->
@@ -122,7 +122,9 @@ Click [네이버](https://www.naver.com/)
 
 ## image 이미지
 
-![image 에 대한 설명](https://github.com/jeongsam3659/jeongsam3659.github.io/tree/main/assets/img/free_img.jpg)
+![image 에 대한 설명](../이미지 주소.확장자)
+
+![free_img](../img/2021-12-27-markdown-post/free_img.jpg)
 
 > \! \[image 설명\]\( 이미지 주소 \)
 
