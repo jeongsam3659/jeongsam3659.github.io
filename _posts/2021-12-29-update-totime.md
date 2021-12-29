@@ -3,6 +3,8 @@ title: "[Blog]블로그시 업데이트 실시간 확인"
 excerpt: "ruby를 활용한 블로그 로컬 서버로 페이지 확인하는 법"
 data: 2021-12-29
 last_modified_at: 2021-12-29
+categories: Blog
+tag: GithubBlog
 ---
 
 # 1.

@@ -2,7 +2,8 @@
 title: "[Blog]블로그 첫 포스팅"
 excerpt: "md 파일에 마크다운 문법으로 작성하여 Github에 업로드 하기"
 data: 2021-12-26
-last_modified_at: 2021-12-26
+last_modified_at: 2021-12-29
+categories: Blog
 ---
 
 ### 머릿말(Front-Matter)
