@@ -19,12 +19,12 @@ foo:
 
 # main links
 main:
-  - title: "블로그 가이드라인"
-    url: /docs/quick-start-guide/
   - title: "category"
     url: /categories/
   - title: "Tag"
     url: /tags/
+  # - title: "블로그 가이드라인"
+  #   url: /docs/quick-start-guide/
   # - title: "About"
   #   url: /about/
   # - title: "Sample Posts"
