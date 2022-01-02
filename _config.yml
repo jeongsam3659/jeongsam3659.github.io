@@ -27,15 +27,16 @@ repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/logo_88.jpg" # 화면에 보여지는 logo 이미지입니다 "/assets/images/88x88.png"
 masthead_title: # 화면 title 입니다., use " " for no title
-
 # --- 구분선 ---
-
-# breadcrumbs            : false # true, false (default)
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
+
+# --- 댓글 ---
 comments:
-    provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+    provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
     disqus:
-        shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+        shortname: "jeongGitBlog" # 당신의 disqus 숏 네임
+        # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
     discourse:
         server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
     facebook:
@@ -275,6 +276,14 @@ compress_html:
 
 # Defaults
 defaults:
+    # _pages
+    - scope:
+          path: "_pages"
+          type: pages
+      values:
+          layout: single
+          author_profile: true
+
     # _posts
     - scope:
           path: ""
@@ -283,14 +292,9 @@ defaults:
           layout: single
           author_profile: true
           read_time: true
-          comments: # true
+          comments: true
           share: true
           related: true
+          show_date: true
 
-    # _pages
-    - scope:
-          path: "_pages"
-          type: pages
-      values:
-          layout: single
-          author_profile: true
+date_format: "%Y-%m-%d"
