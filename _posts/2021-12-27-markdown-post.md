@@ -20,17 +20,21 @@ categories: Blog
 
 ###### Heading 6
 
-- h1 ~ h6까지 표현 가능한 (# 갯수)로 표현할 수 있다.
+-   h1 ~ h6까지 표현 가능한 (# 갯수)로 표현할 수 있다.
 
 > 일반적 텍스트 작성시에는 아무 기호없이 사용하면 된다.
 
-<!-- Line -->
+<br><br/>
 
 ---
+
+<!-- Line -->
 
 ## Line
 
 > 구분선은 \_을 세번 ( \_\_\_ ) 사용하면 구분선이 나타난다.
+
+<br><br/>
 
 ---
 
@@ -49,6 +53,8 @@ This is the **bold** text and this is the _italic_ text and let's do ~~strikethr
 > italic \*글자\* ,
 > 취소선 \~~글자\~~
 
+<br><br/>
+
 ---
 
 <!-- Quote -->
@@ -56,6 +62,8 @@ This is the **bold** text and this is the _italic_ text and let's do ~~strikethr
 ## Quote 인용
 
 > \' \> \' 를 사용하여 구분지는 인용문?을 나타나게 할 수 있다.
+
+<br><br/>
 
 ---
 
@@ -65,33 +73,35 @@ This is the **bold** text and this is the _italic_ text and let's do ~~strikethr
 
 라면:
 
-- 신라면
-- 안성탕면
-- 무파마
+-   신라면
+-   안성탕면
+-   무파마
 
 그 밖:
 
-- 짜파게티
-- 멸치 칼국수
+-   짜파게티
+-   멸치 칼국수
 
 > \* 이나 \- 으로 순서없는 리스트를 생성할 수 있다.
 
 웹
 
-- 프론트
-  - html/css
-  - Js
-    - React
-    - anguler
-- 백엔드
+-   프론트
+    -   html/css
+    -   Js
+        -   React
+        -   anguler
+-   백엔드
 
-  - java
+    -   java
 
-    - Spring
+        -   Spring
 
-  - Python
+    -   Python
 
 등으로 하위 부분을 표현할때 탭(TAB) + \* \- 사용하면 된다.
+
+<br><br/>
 
 ---
 
@@ -107,6 +117,8 @@ Numbers:
 
 간단하게 숫자로 표현할 수 있다.
 
+<br><br/>
+
 ---
 
 <!-- Link -->
@@ -117,17 +129,21 @@ Click [네이버](https://www.naver.com/)
 
 > \[ 문자 \] \( 웹 주소 \) 를 기입하면 '네이버' 클릭시 네이버 페이지로 이동합니다.
 
+<br><br/>
+
 ---
 
 <!-- image -->
 
 ## image 이미지
 
-![image 에 대한 설명](../이미지 주소.확장자)
+-   ![image 에 대한 설명](../이미지 주소.확장자)
 
-![free_img](../img/2021-12-27-markdown-post/free_img.jpg)
+![free_img](../assets/img/free_img.jpg)
 
 > \! \[image 설명\]\( 이미지 주소 \)
+
+<br><br/>
 
 ---
 
@@ -162,6 +178,8 @@ Click [네이버](https://www.naver.com/)
 
 가운데정렬
 
+<br><br/>
+
 ---
 
 <!-- Code -->
@@ -185,5 +203,5 @@ console.log("Hello!");
 
 # 참고
 
-- [드림코딩 by엘리](https://www.youtube.com/watch?v=kMEb_BzyUqk&t=3s) 마크다운
-- 구글신
+-   [드림코딩 by엘리](https://www.youtube.com/watch?v=kMEb_BzyUqk&t=3s) 마크다운
+-   구글신
