@@ -2,8 +2,9 @@
 title: "[Blog]마크다운MarkDown 언어"
 excerpt: "md파일에 언어를 사용해서 블로그를 이어가자"
 data: 2021-12-27
-last_modified_at: 2021-12-29
+last_modified_at: 2022-01-02
 categories: Blog
+tag: [Blog, Makedown]
 ---
 
 <!-- Heading -->

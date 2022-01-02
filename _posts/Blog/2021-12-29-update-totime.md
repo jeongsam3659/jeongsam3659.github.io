@@ -2,9 +2,9 @@
 title: "[Blog]블로그시 업데이트 실시간 확인"
 excerpt: "ruby를 활용한 블로그 로컬 서버로 페이지 확인하는 법"
 data: 2021-12-29
-last_modified_at: 2021-12-29
+last_modified_at: 2022-01-02
 categories: Blog
-tag: GithubBlog
+tag: Blog
 ---
 
 # 1.
@@ -45,13 +45,13 @@ cmd-ruby창이 등장하는데 3번 + enter로 설치.
 
 ## Powershell
 
-- 프로젝트 폴더 선택 + shift + 우클릭시
-- powershell 창 실행.
+-   프로젝트 폴더 선택 + shift + 우클릭시
+-   powershell 창 실행.
 
 cd 프로젝트폴더 로 들어가서.
 
-- **bundle install** 설치. 완료 후
-- bundle exec jekyll serve.
+-   **bundle install** 설치. 완료 후
+-   bundle exec jekyll serve.
 
 > 만약 ERROR **'cannot load such file -- webrick'** 시
 > bundle add webrick로 설치.
@@ -60,7 +60,7 @@ cd 프로젝트폴더 로 들어가서.
 
 ## 로컬 서버
 
-- Server address: http://127.0.0.1:4000 로 서버가 열렸다는 것을 알 수 있다.
+-   Server address: http://127.0.0.1:4000 로 서버가 열렸다는 것을 알 수 있다.
 
 > 인터넷 주소창에 http://127.0.0.1:4000/ 치면 블로그가 나오는걸 볼 수 있다. (로컬 서버)
 
