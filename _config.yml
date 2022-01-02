@@ -24,7 +24,7 @@ description: "곡창" # 설명란
 url: "https://jeongsam3659.github.io/" # # Github Repo url입니다.
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser: "/assets/images/teaser_5030.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/logo_88.jpg" # 화면에 보여지는 logo 이미지입니다 "/assets/images/88x88.png"
 masthead_title: # 화면 title 입니다., use " " for no title
 
