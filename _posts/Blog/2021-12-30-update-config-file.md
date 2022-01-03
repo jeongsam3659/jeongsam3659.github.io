@@ -5,6 +5,7 @@ data: 2022-01-02
 last_modified_at: 2022-01-03
 categories: Blog
 tag: Blog
+toc: true
 ---
 
 # minstake 블로그 깃헙 가이드

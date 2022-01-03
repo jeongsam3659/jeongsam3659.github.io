@@ -5,6 +5,7 @@ data: 2022-01-02
 last_modified_at: 2022-01-02
 categories: Blog
 tag: java
+toc: true
 ---
 
 ## java 출력 확인
