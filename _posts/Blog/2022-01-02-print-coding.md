@@ -2,10 +2,13 @@
 title: "[Blog]코드 예제 출력확인"
 excerpt: "작성한 코드가 출력되는지 확인 페이지."
 data: 2022-01-02
-last_modified_at: 2022-01-02
+last_modified_at: 2022-01-04
 categories: Blog
 tag: java
 toc: true
+author_profile: false
+sidebar:
+    nav: "docs"
 ---
 
 ## java 출력 확인
