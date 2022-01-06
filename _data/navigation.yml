@@ -8,14 +8,14 @@ main:
       url: /search/
 
 docs:
-    - title: "큰 상자"
+    - title: "공부 관련"
       children:
           - title: "Category"
             url: /categories/
           - title: "Tag"
             url: /tags/
 
-    - title: "작은 상자"
+    - title: "일상 관련"
       children:
           - title: "Tag"
             url: /tags/
